@@ -1,0 +1,28 @@
+.list button{
+    padding: 10px;
+    display: flex;
+    width: 100%;
+}
+.list button a{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+}
+.coll-list{
+    font-size: 14px;
+    list-style: disc;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.coll-list li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.collapse{
+    direction: rtl;
+}
